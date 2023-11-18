@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style.css">
+    <script src="https://kit.fontawesome.com/c5ed4752ba.js" crossorigin="anonymous"></script>
+    <title>Manutenção Elétrica</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="navbar">
+            <ul>
+                <li>
+                    <i class="fa-brands fa-facebook"></i>
+                </li>
+                <li>
+                    <i class="fa-brands fa-instagram"></i>
+                </li>
+            </ul>
+        </div>
+        <div class="icon">
+            <img src="../img/logo.jpg" alt="Logo da empresa">
+        </div>
+
+        <!-- FORMULARIO -->
+        <div class="form-content">
+            <div class="form-header">
+                <h1 class="title-form">Formulário</h1>
+            </div>
+            <div class="form-body">
+                <div class="box-input">
+                    <label for="name">Nome completo <span class="required-field">*</span></label>
+                    <input type="text" class="block" id="name" name="name" placeholder="Digite seu nome completo"
+                        required>
+                </div>
+                <div class="box-input">
+                    <label for="company">Empresa</label>
+                    <input type="text" class="block" id="company" name="company" placeholder="Digite o nome da empresa">
+                </div>
+                <div class="box-input">
+                    <label for="email">E-mail <span class="required-field">*</span></label>
+                    <input type="email" class="block" id="email" name="email" placeholder="email@exemplo.com" required>
+                </div>
+                <div class="box-input">
+                    <label for="cell-phone">Celular <span class="required-field">*</span></label>
+                    <input type="text" class="block" id="cell-phone" name="cell-phone" placeholder="(00) 00000-0000"
+                        required>
+                </div>
+                <div class="box-input">
+                    <label for="budget">Orçamento para <span class="required-field">*</span></label>
+                    <select name="budget" id="budget">
+                        <option value="residential-commercial" selected>Elétrica residencial e comercial</option>
+                        <option value="residential-commercial">Climatização</option>
+                        <option value="residential-commercial">Energia Solar</option>
+                    </select>
+                </div>
+                <div class="box-input-radio">
+                    <p>Como prefere ser contatado <span class="required-field">*</span></p>
+                    <div class="radio">
+                        <input type="radio" name="contact" id="contact-cell-phone">
+                        <label for="contact-cell-phone">Celular</label>
+                    </div>
+                    <div class="radio">
+                        <input type="radio" name="contact" id="contact-email">
+                        <label for="contact-email">Email</label>
+                    </div>
+                </div>
+                <div class="form-btn">
+                    <input type="submit" value="Enviar" class="btn">
+                    <input type="reset" value="Limpar formulario" class="btn">
+                </div>
+
+            </div>
+        </div>
+
+        <div class="footer">
+            <div class="social-media">
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-instagram"></i>
+            </div>
+            <div class="information">
+                <p><span class="strong">Localização:</span> <br /><br /> Porto Alegre / RS - Bairro Hípica - Av. Juca
+                    Batista</p>
+            </div>
+        </div>
+</body>
+
+</html>
