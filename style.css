@@ -58,6 +58,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
 }
 
 .banner h3 {
@@ -66,6 +67,32 @@ body {
     text-align: center;
     color: #fff;
     font-size: 52px;
+}
+
+.btn-content {
+    width: 20%;
+    margin: 0 auto;
+    padding: 30px 0;
+}
+
+.btn-orcamento {
+    background-color: #F3AB33;
+    color: #1C2021;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    width: 250px;
+    padding: 20px;
+    border: 2px solid #ccc;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.btn-orcamento:hover {
+    border: 2px solid #F3AB33;
+    background-color: #1C2021;
+    color: #f7f7f8;
 }
 
 /* ABOUT */
