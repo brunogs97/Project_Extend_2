@@ -126,7 +126,7 @@ body {
 }
 
 /* ATTENDANCE */
-.container_attendance  {
+.container_attendance {
     width: 100%;
     background-color: #F3AB33;
     padding: 30px;
@@ -291,4 +291,139 @@ body {
     margin: 0 10px;
     cursor: pointer;
     font-size: 30px;
+}
+
+/* RESPONSIVIDADE */
+@media screen and (max-width: 500px) {
+
+    /* BANNER */
+    .banner h3 {
+        width: 400px;
+        margin: 10px auto;
+        line-height: 30px;
+        padding: 10px;
+        font-size: 18px;
+    }
+
+    /* BOTÃO ORCAMENTO */
+    .btn-content {
+        width: 50%;
+    }
+
+    .btn-orcamento {
+        font-size: 16px;
+        width: 200px;
+        padding: 15px;
+    }
+
+    /* ABOUT */
+    .about {
+        padding: 10px;
+    }
+
+    .about .description {
+        width: 90%;
+    }
+
+
+    /* ATTENDANCE */
+    .container_attendance {
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .container_attendance img {
+        border: 4px solid #f7f7f8;
+        border-radius: 10% 30% 10% 30%;
+        width: 350px;
+    }
+
+    .container_attendance .text {
+        width: 100%;
+        padding: 20px;
+    }
+
+    /* SERVICE CONTAINER */
+    .service-container .header {
+        background-color: #f7f7f8;
+        color: #1C2021;
+        text-transform: uppercase;
+        text-align: center;
+        letter-spacing: 2px;
+        padding: 20px;
+    }
+
+    .article {
+        width: 100%;
+        padding: 10px;
+        display: block;
+    }
+
+    .article .text {
+        padding: 20px;
+        width: 100%;
+    }
+
+    .article .text .title {
+        font-size: 32px;
+        width: 100%;
+    }
+
+    .article .text ul li {
+        margin-bottom: 10px;
+    }
+
+    /* CAROUSEL CONTAINER */
+    .swiper {
+        width: 90%;
+    }
+
+    .swiper-slide img {
+        width: 200px;
+        height: 250px;
+    }
+
+    .quotes-container {
+        padding: 30px;
+        font-size: 18px;
+    }
+
+    .quotes-container blockquote {
+        width: 90%;
+    }
+
+    .payments {
+        width: 100%;
+        padding: 30px;
+        font-size: 18px;
+    }
+
+    .payments blockquote {
+        width: 90%;
+    }
+
+    /* FEEDBACK */
+    .feedback-container {
+        padding: 10px;
+    }
+
+    .carousel-slide img {
+        border: none;
+        width: 230px;
+        height: 250px;
+    }
+
+    /* FOOTER */
+    .footer {
+        height: 150px;
+        padding: 10px;
+        display: block;
+        text-align: center;
+    }
+
+    .social-media .fa-brands {
+        margin: 20px 10px;
+    }
+
 }
